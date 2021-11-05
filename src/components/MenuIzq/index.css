@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.miz {
+    width: 80px;
+    height:400px;
+    position: relative;
+}
+
+.miz > div {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    height: 100%;
+    background:#fff;
+
+}
+
+.miz_item {
+    padding:18px;
+    cursor:pointer;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.miz_item img{
+    width: 100%;
+}
+
+.miz-mbtn {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.slt_squ:hover {
+    background:#f0f0f0;
+}
+
+.miz_icon {
+    width: 28px;
+    height: 28px;
+}
+
+.miz_tit span {
+    font-size:12px;
+}
